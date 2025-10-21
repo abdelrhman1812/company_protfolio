@@ -1,0 +1,821 @@
+{
+  "BtnConsulting": "Register Now",
+  "Search": "search",
+  "NeedHelp": "Need Help",
+  "learnMore": "Want to learn more About us?",
+  "successMessage": "Our success as consultants will depend on the essential rightness of the advice.",
+  "clickHere": "Click here",
+
+  "companyDescription": "At Smartech, we are committed to providing top-notch software development and IT solutions to our clients. With years of experience in the field, we deliver innovative and modern applications that meet diverse business needs. We focus on clean code, scalable architecture, and strive to achieve the highest quality standards in every project.",
+  "openingHours": {
+    "sundayToThursday": "Sunday - Thursday",
+    "openingHours": " 9:00 AM – 8:00 PM"
+  },
+
+  "Support": {
+    "title": "Still Have More Questions ?",
+    "description_first": "Contact Our",
+    "description_second": "Expert Support Team"
+  },
+  "TopNav": {
+    "companyName": "Smartech",
+    "contact": {
+      "location": "Mansoura",
+      "working_hours": "Working Hours: 9:00 AM  –  8:00 PM"
+    },
+    "socialTitle": "Follow On"
+  },
+
+  "Nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "blogs": "Blogs",
+    "contact": "Contact",
+    "pages": "Pages",
+    "blog_details": "Blog Details",
+    "services_details": "Services Details",
+    "projects": "Projects",
+    "project_details": "Project Details",
+    "team": "Team",
+    "team_details": "Team Details",
+    "pricing": "Pricing",
+    "faq": "FAQ"
+  },
+
+  "navigationMobile": [
+    {
+      "title": "Home",
+      "href": "/"
+    },
+    {
+      "title": "About Us",
+      "href": "/about"
+    },
+    {
+      "title": "Services",
+      "href": "/services",
+      "children": [
+        {
+          "title": "Services Details",
+          "href": "/services/1"
+        }
+      ]
+    },
+    {
+      "title": "Projects",
+      "href": "/projects",
+      "children": [
+        {
+          "title": "Projects Details",
+          "href": "/projects/1"
+        }
+      ]
+    },
+    {
+      "title": "Blogs",
+      "href": "/blog",
+      "children": [
+        {
+          "title": "Blogs Details",
+          "href": "/blogs"
+        }
+      ]
+    },
+    {
+      "title": "Pages",
+      "href": "/pages",
+      "children": [
+        {
+          "title": "Team",
+          "href": "/teams"
+        },
+        {
+          "title": "Team Profile",
+          "href": "/teams/1"
+        },
+        {
+          "title": "FAQ",
+          "href": "/pages/faq"
+        },
+        {
+          "title": "Pricing",
+          "href": "/pricing"
+        }
+      ]
+    },
+    {
+      "title": "Contact Us",
+      "href": "/contact"
+    }
+  ],
+
+  "HomePage": {
+    "HeroSection": {
+      "agencyName": "Smartech Software Solutions",
+      "headline": "Smart Software for a Smarter Future",
+      "description": "We provide cutting-edge software solutions, including web and mobile app development, cloud services, and digital transformation to help businesses grow and innovate.",
+      "buttonText": "Bring Your Idea to Life",
+      "playVideo": "Watch Our Work"
+    },
+
+    "AboutUs": {
+      "title": "About Us",
+      "subtitle": "Learn more about our software development and digital solutions",
+      "description": "At Smartech, we specialize in delivering modern software solutions tailored to your business needs. From web and mobile app development to cloud services and digital transformation, our expert team ensures innovation, reliability, and long-term success for every project.",
+      "progress": {
+        "decoration": "Web & Mobile App Projects",
+        "renovation": "Digital Transformation Solutions"
+      },
+      "helping": "Empowering businesses with smart, scalable, and efficient technology."
+    },
+
+    "Services": {
+      "title": "Our Services",
+      "subTitle": "What We Provide",
+      "services": [
+        {
+          "title": "Web Development",
+          "description": "We build fast, secure, and scalable web applications using the latest technologies."
+        },
+        {
+          "title": "Mobile App Development",
+          "description": "We design and develop mobile applications with seamless user experiences for Android and iOS."
+        },
+        {
+          "title": "UI / UX Design",
+          "description": "Our creative team crafts modern, user-friendly interfaces that enhance usability and engagement."
+        },
+        {
+          "title": "Software Solutions",
+          "description": "Custom software tailored to your business needs, built with efficiency and reliability."
+        },
+        {
+          "title": "Technical Support & Maintenance",
+          "description": "We ensure your digital products run smoothly with continuous monitoring and updates."
+        }
+      ]
+    },
+    "OurWorks": {
+      "title": "Our Work Process",
+      "subTitle": "How We Turn Ideas Into Reality",
+      "ourWorks": [
+        {
+          "title": "Planning",
+          "description": "We start by understanding your business needs and defining a clear project strategy."
+        },
+        {
+          "title": "Development",
+          "description": "Our expert team develops scalable and high-quality software solutions tailored to your goals."
+        },
+        {
+          "title": "Delivery",
+          "description": "We deliver your project on time, ensuring top performance, security, and continuous support."
+        }
+      ]
+    },
+
+    "Portfolio": {
+      "title": "Our Portfolio",
+      "subTitle": "A Look at Our Past Projects",
+      "portfolioItems": [
+        {
+          "title": "Electronics",
+          "jobTitle": "Web & Mobile App"
+        },
+        {
+          "title": "Eyemakers",
+          "jobTitle": "Web & Mobile App"
+        },
+        {
+          "title": "Courses Platform",
+          "jobTitle": "Web & Mobile App"
+        },
+        {
+          "title": "Dentist",
+          "jobTitle": "Web & Mobile App"
+        },
+        {
+          "title": "Online Shop",
+          "jobTitle": "Web & Mobile App"
+        },
+        {
+          "title": "Software",
+          "jobTitle": "Web & Mobile App"
+        },
+        {
+          "title": "Moltaqa",
+          "jobTitle": "Web & Mobile App"
+        }
+      ]
+    },
+
+    "Questions": {
+      "title": "Questions And Answers",
+      "subTitle": "Frequently Asked Questions",
+      "questionsItems": [
+        {
+          "id": 1,
+          "title": "Do you provide free consultations before starting a project?",
+          "description": "Yes, we offer free consultations to understand your goals, technical needs, and suggest the best software solutions for your business."
+        },
+        {
+          "id": 2,
+          "title": "Can I request changes after the project is delivered?",
+          "description": "Of course! We provide post-launch support and accept reasonable change requests to ensure your satisfaction."
+        },
+        {
+          "id": 3,
+          "title": "Do you offer maintenance and technical support?",
+          "description": "Yes, we provide continuous maintenance and technical support to ensure your system runs smoothly and securely."
+        }
+      ]
+    },
+
+    "Statistics": {
+      "title": "Company Statistics",
+      "subTitle": "An overview of our achievements and milestones",
+      "data": [
+        {
+          "id": 1,
+          "num": 120,
+          "mount": "+",
+          "title": "Completed Projects"
+        },
+        {
+          "id": 2,
+          "num": 80,
+          "mount": "+",
+          "title": "Happy Clients"
+        },
+        {
+          "id": 3,
+          "num": 25,
+          "mount": "+",
+          "title": "Team Members"
+        },
+        {
+          "id": 4,
+          "num": 5,
+          "mount": "+",
+          "title": "Years of Experience"
+        }
+      ]
+    },
+
+    "Teams": {
+      "title": "Our Team",
+      "subTitle": "Meet Our Expert Team",
+      "personalInfo": "Personal Information",
+      "personalExperience": "Personal Experience",
+      "phone": "Phone",
+      "email": "Email",
+      "experience": "Experience",
+      "address": "Address",
+      "teamItems": [
+        {
+          "id": 1,
+          "name": "Abdelrhman",
+          "job": "Full Stack Developer",
+          "objective": "I am a skilled developer with experience in front-end and back-end technologies, including React js, Next js, and Node js, I am capable of creating dynamic user interfaces and architecting scalable solutions. I seek opportunities to leverage my expertise and contribution to innovative projects that blend creativity with technical precision.",
+          "social": [
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/in/abdelrahmanali18/"
+            },
+            {
+              "platform": "GitHub",
+              "url": "https://github.com/abdelrhman1812?tab=repositories"
+            }
+          ],
+          "personalInfo": {
+            "objective": "I am a skilled developer with experience in front-end and back-end technologies, including React js, Next js, and Node js, I am capable of creating dynamic user interfaces and architecting scalable solutions. I seek opportunities to leverage my expertise and contribution to innovative projects that blend creativity with technical precision.",
+            "details": {
+              "phone": "01024856345",
+              "email": "abdelrhmanali1812@gmail.com",
+              "experiences": "2+ years",
+              "address": "Mansoura"
+            }
+          },
+          "personalExperience": {
+            "objective": "I am a skilled developer with experience in front-end and back-end technologies, including React js, Next js, and Node js, I am capable of creating dynamic user interfaces and architecting scalable solutions. I seek opportunities to leverage my expertise and contribution to innovative projects that blend creativity with technical precision.",
+            "items": [
+              { "percentage": 80, "name": "Node.js" },
+              { "percentage": 90, "name": "React.js" },
+              { "percentage": 70, "name": "MongoDB" }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "name": "Ali",
+          "job": "Full Stack Developer",
+          "objective": "I am a skilled developer with experience in front-end and back-end technologies, including React js, Next js, and Node js, I am capable of creating dynamic user interfaces and architecting scalable solutions. I seek opportunities to leverage my expertise and contribution to innovative projects that blend creativity with technical precision.",
+          "social": [
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/in/abdelrahmanali18/"
+            },
+            {
+              "platform": "GitHub",
+              "url": "https://github.com/abdelrhman1812?tab=repositories"
+            }
+          ],
+          "personalInfo": {
+            "objective": "I am a skilled developer with experience in front-end and back-end technologies, including React js, Next js, and Node js, I am capable of creating dynamic user interfaces and architecting scalable solutions. I seek opportunities to leverage my expertise and contribution to innovative projects that blend creativity with technical precision.",
+            "details": {
+              "phone": "01024856345",
+              "email": "ali@gmail.com",
+              "experiences": "2+ years",
+              "address": "Mansoura"
+            }
+          },
+          "personalExperience": {
+            "objective": "I am a skilled developer with experience in front-end and back-end technologies, including React js, Next js, and Node js, I am capable of creating dynamic user interfaces and architecting scalable solutions. I seek opportunities to leverage my expertise and contribution to innovative projects that blend creativity with technical precision.",
+            "items": [
+              { "percentage": 80, "name": "Node.js" },
+              { "percentage": 90, "name": "React.js" },
+              { "percentage": 70, "name": "MongoDB" }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "name": "Ahmed",
+          "job": "Full Stack Developer",
+          "objective": "I am a skilled developer with experience in front-end and back-end technologies, including React js, Next js, and Node js, I am capable of creating dynamic user interfaces and architecting scalable solutions. I seek opportunities to leverage my expertise and contribution to innovative projects that blend creativity with technical precision",
+          "social": [
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/in/abdelrahmanali18/"
+            },
+            {
+              "platform": "GitHub",
+              "url": "https://github.com/abdelrhman1812?tab=repositories"
+            }
+          ],
+          "personalInfo": {
+            "objective": "I am a skilled developer with experience in front-end and back-end technologies, including React js, Next js, and Node js, I am capable of creating dynamic user interfaces and architecting scalable solutions. I seek opportunities to leverage my expertise and contribution to innovative projects that blend creativity with technical precision",
+            "details": {
+              "phone": "01024856345",
+              "email": "ahmed@gmail.com",
+              "experiences": "2+ years",
+              "address": "Mansoura"
+            }
+          },
+          "personalExperience": {
+            "objective": "I am a skilled developer with experience in front-end and back-end technologies, including React js, Next js, and Node js, I am capable of creating dynamic user interfaces and architecting scalable solutions. I seek opportunities to leverage my expertise and contribution to innovative projects that blend creativity with technical precision",
+            "items": [
+              { "percentage": 80, "name": "Node.js" },
+              { "percentage": 90, "name": "React.js" },
+              { "percentage": 70, "name": "MongoDB" }
+            ]
+          }
+        }
+      ]
+    },
+
+    "Testimonials": {
+      "title": "Client’s Testimonials",
+      "subtitle": "What Our Clients Say About Smartech",
+      "data": [
+        {
+          "rating": 5,
+          "text": "Working with Smartech was an incredible experience. Their team delivered our web platform on time with flawless functionality and a modern design.",
+          "name": "Abdelrahman Ali",
+          "role": "Startup Founder"
+        },
+        {
+          "rating": 4.9,
+          "text": "They transformed our idea into a full mobile application. The process was smooth, and the communication was excellent throughout the project.",
+          "name": "Ahmed Mohamed",
+          "role": "Product Manager"
+        },
+        {
+          "rating": 4.8,
+          "text": "Professional, fast, and reliable. Smartech’s developers truly care about delivering the best results and providing long-term support.",
+          "name": "Ahmed Said",
+          "role": "Business Owner"
+        },
+        {
+          "rating": 5,
+          "text": "Great attention to detail and technical expertise. They built our company dashboard exactly as we envisioned it — highly recommended!",
+          "name": "Mohamed Ali",
+          "role": "CEO at TechVision"
+        }
+      ]
+    }
+  },
+
+  "BlogPage": {
+    "title": "Blogs",
+    "subtitle": "Latest Tech Insights and Articles",
+    "latest_blog": "LATEST BLOG",
+    "latest_news_articles": "Latest News & Articles",
+    "read_more": "Read More",
+
+    "posts": [
+      {
+        "id": "1",
+        "date": { "day": 15, "month": "FEB" },
+        "author": "Abdelrahman Ali",
+        "category": "Web Development",
+        "title": "Building Scalable Web Applications with Next.js and Node.js",
+        "excerpt": "Learn how modern frameworks like Next.js and Node.js can help you build fast, scalable web applications.",
+        "slug": "nextjs-nodejs-scalable-apps"
+      },
+      {
+        "id": "2",
+        "date": { "day": 10, "month": "MAR" },
+        "author": "Sarah Ahmed",
+        "category": "Artificial Intelligence",
+        "title": "How AI is Transforming Software Development",
+        "excerpt": "Explore how artificial intelligence is reshaping the way developers build and optimize modern applications.",
+        "slug": "ai-in-software-development"
+      },
+      {
+        "id": "3",
+        "date": { "day": 5, "month": "APR" },
+        "author": "Omar Hassan",
+        "category": "Cybersecurity",
+        "title": "Top Security Practices for Web Developers in 2025",
+        "excerpt": "Discover essential techniques to keep your web applications safe and secure from modern threats.",
+        "slug": "web-security-practices-2025"
+      },
+      {
+        "id": "4",
+        "date": { "day": 20, "month": "MAY" },
+        "author": "Nour Samir",
+        "category": "UI/UX Design",
+        "title": "Designing Intuitive User Interfaces for Better Experiences",
+        "excerpt": "Understand how good design principles enhance user experience and improve engagement.",
+        "slug": "ui-ux-design-principles"
+      },
+      {
+        "id": "5",
+        "date": { "day": 12, "month": "JUN" },
+        "author": "Ahmed Youssef",
+        "category": "DevOps",
+        "title": "CI/CD Pipelines: Streamlining Your Development Workflow",
+        "excerpt": "Learn how continuous integration and deployment can make your team faster and more efficient.",
+        "slug": "cicd-pipelines-guide"
+      },
+      {
+        "id": "6",
+        "date": { "day": 25, "month": "JUL" },
+        "author": "Layla Hassan",
+        "category": "Cloud Computing",
+        "title": "Migrating to the Cloud: Best Practices for Businesses",
+        "excerpt": "Discover the benefits and key steps for a smooth transition to cloud-based infrastructure.",
+        "slug": "cloud-migration-practices"
+      }
+    ],
+
+    "blog": {
+      "tags": {
+        "title": "Tags",
+        "list": [
+          "Web Development",
+          "AI",
+          "Cybersecurity",
+          "UI/UX",
+          "DevOps",
+          "Cloud"
+        ]
+      },
+      "share": "Share",
+      "title": "Choosing the Right Tech Stack for Your Next Project",
+      "author": "Abdelrahman Ali",
+      "category": "Software Consulting",
+      "mainContent": [
+        "Selecting the right tech stack is one of the most crucial decisions in any software project. It impacts performance, scalability, and long-term maintenance.",
+        "Start by understanding your project’s requirements and goals. Frontend frameworks like React or Next.js pair well with backend technologies like Node.js or Django.",
+        "Choosing the right database is also essential — MongoDB and PostgreSQL remain top choices for flexibility and scalability.",
+        "Make sure your stack supports efficient collaboration, CI/CD pipelines, and cloud deployment.",
+        "Ultimately, your technology stack should align with your team’s skills and your business’s growth strategy."
+      ],
+      "resourcesQuote": "Successful software development starts with the right tools and technologies that empower your team to build efficiently and scale confidently.",
+      "quoteAuthor": "David Miller",
+      "article": {
+        "author": "Abdelrahman Ali",
+        "topic": "Tech Trends for 2025: How AI, Cloud, and Automation Are Reshaping Development",
+        "intro": "The software industry is evolving faster than ever. In this article, we explore the top trends of 2025 — from AI integration to serverless computing — and how they’re transforming the way developers build applications.",
+        "date": "January 13, 2025"
+      },
+      "comments": {
+        "title": "Comments",
+        "replay": "Reply",
+        "list": [
+          {
+            "id": 1,
+            "comment": "Great insights! The part about choosing the right database really helped me rethink my stack for my current project.",
+            "rate": 5,
+            "date": "March 20, 2024",
+            "author": {
+              "name": "Mohamed Salah"
+            }
+          },
+          {
+            "id": 2,
+            "comment": "Excellent article! Would love to see a follow-up comparing Next.js and Remix for 2025.",
+            "rate": 4,
+            "date": "February 20, 2024",
+            "author": {
+              "name": "Heba Adel"
+            }
+          }
+        ]
+      }
+    }
+  },
+
+  "ProjectPage": {
+    "title_section": {
+      "title": "Our Projects",
+      "subtitle": "Our Provided Projects"
+    },
+    "projects": [
+      {
+        "id": 1,
+        "title": "Electronics Store",
+        "type": "Ecommerce",
+        "key": "HTML/CSS"
+      },
+      {
+        "id": 2,
+        "title": "EyeMakers",
+        "type": "Clinic Website",
+        "key": "Website"
+      },
+      {
+        "id": 3,
+        "title": "Courses Platform",
+        "type": "Education Platform",
+        "key": "Dashboard"
+      },
+      {
+        "id": 4,
+        "title": "Dentist Website",
+        "type": "Dentist Clinic",
+        "key": "Website"
+      },
+      {
+        "id": 5,
+        "title": "Online Shop",
+        "type": "Ecommerce",
+        "key": "Website"
+      },
+      {
+        "id": 6,
+        "title": "Software",
+        "type": "Marketing Software",
+        "key": "Website"
+      }
+    ],
+
+    "projectDetails": {
+      "clientProjectDetails": {
+        "title": "Client Project Details",
+        "clientName": "Client",
+        "clientValue": "Abdelrahman Ali",
+        "category": "Category",
+        "categoryValue": "Business Solution / E-commerce",
+        "date": "Date",
+        "dateValue": "25 Dec 2024",
+        "address": "Address",
+        "addressValue": "Mansoura"
+      },
+      "planning": {
+        "title": "E-commerce Store Planning & Design",
+        "paragraph1": "We designed and developed a fully functional e-commerce store that provides a smooth and user-friendly shopping experience. Our focus was on creating a modern and attractive interface with high performance and fast loading speed to enhance customer engagement and increase sales.",
+        "paragraph2": "The store was built using the latest web technologies to ensure security, easy product management, and responsive design across all devices, delivering a seamless experience for users."
+      },
+      "challengeOfProject": {
+        "title": "The Challenge of the Project",
+        "paragraph1": "During the development of the e-commerce platform, we faced several challenges to achieve optimal performance and provide an outstanding user experience. Our main goal was to combine aesthetics, usability, and efficiency.",
+        "challenges": [
+          "Improving page loading speed with multiple products.",
+          "Providing an easy system for managing products and inventory.",
+          "Designing a fully responsive interface for all devices.",
+          "Integrating secure and seamless online payment gateways.",
+          "Creating a simple and comfortable user experience.",
+          "Ensuring user data and transaction security."
+        ],
+        "paragraph2": "Despite the challenges, the project was successfully completed through careful planning and teamwork, resulting in a high-quality, efficient, and visually appealing e-commerce store."
+      }
+    }
+  },
+
+  "Services": {
+    "business_section": {
+      "header": {
+        "title": "WHY CHOOSE US",
+        "description": "We work for you to build your software business fast",
+        "business_using_stripe": "4M+ Businesses Using Smartech Solutions"
+      },
+      "cards": [
+        {
+          "title": "Software Consulting",
+          "description": "We offer professional software consulting to help you grow your business and succeed in the digital market."
+        },
+        {
+          "title": "Strategic Planning",
+          "description": "We assist you in creating IT and software strategies to drive business growth and achieve your goals."
+        },
+        {
+          "title": "IT & Software Management",
+          "description": "We manage your software solutions and IT infrastructure to ensure operational excellence and business continuity."
+        }
+      ]
+    },
+
+    "ServicesDetails": {
+      "home": "Home",
+      "titleHero": "Services Details",
+      "title": "Software & IT Solutions",
+      "description": "As a software development expert, we help organizations adapt to the growing importance of digital transformation. Our team is dedicated to delivering top-quality solutions that exceed expectations, ensuring your business thrives in the digital age.",
+      "image": {
+        "alt": "Software & IT Solutions"
+      },
+      "challenges": [
+        "Rapid Software Deployment",
+        "Expert Development Team",
+        "Easy Customer Support",
+        "24/7 Quality Assurance"
+      ],
+      "details": [
+        {
+          "title": "Business Growth",
+          "description": "Our software solutions help businesses grow efficiently by leveraging innovative technologies and market trends.",
+          "image": {
+            "alt": "Business Growth"
+          }
+        },
+        {
+          "title": "IT Planning",
+          "description": "We offer comprehensive IT and software planning services to ensure your business stays profitable and sustainable.",
+          "image": {
+            "alt": "IT Planning"
+          }
+        }
+      ],
+      "working_challenge": {
+        "title": "Our Approach",
+        "description": "As software development experts, we help businesses adapt to the growing importance of digital solutions. We deliver high-quality software services that meet our clients' expectations.",
+        "data": [
+          "Custom software solutions for all business needs",
+          "Innovative and scalable development",
+          "Utilizing the latest web and mobile technologies",
+          "A team of skilled software engineers",
+          "Executing projects to the highest standards",
+          "Specialized in enterprise software solutions"
+        ],
+        "sub_description": "We are committed to providing high-quality software and IT services that exceed our clients' expectations and ensure their complete satisfaction."
+      }
+    }
+  },
+
+  "ContactUsPage": {
+    "title": "Contact Us",
+    "description": "If you have any questions, inquiries, or need assistance with your project, feel free to reach out to us. Our team is here to help you achieve the best results for your dream space.",
+    "callUs": "Call Us",
+    "email": "Email",
+    "address": "Address",
+    "phone": "Phone",
+    "copyright": "© Copyright 2024. All Rights Reserved by"
+  },
+
+  "PricingPage": {
+    "titleSection": {
+      "title": "BEST PRICING",
+      "subtitle": "Flexible plans for small to fast-growing businesses"
+    },
+    "purchase": "Purchase Now",
+    "pricingPlans": [
+      {
+        "name": "Basic Plan",
+        "price": 29,
+        "features": [
+          { "name": "Software Consulting", "included": true },
+          { "name": "Bug Fixing & Maintenance", "included": true },
+          { "name": "Basic Web Development", "included": true },
+          { "name": "Custom App Development", "included": false },
+          { "name": "Cloud Integration", "included": false }
+        ]
+      },
+      {
+        "name": "Premium Plan",
+        "price": 59,
+        "features": [
+          { "name": "Software Consulting", "included": true },
+          { "name": "Bug Fixing & Maintenance", "included": true },
+          { "name": "Basic Web Development", "included": true },
+          { "name": "Custom App Development", "included": true },
+          { "name": "Cloud Integration", "included": false }
+        ]
+      },
+      {
+        "name": "Advanced Plan",
+        "price": 89,
+        "features": [
+          { "name": "Software Consulting", "included": true },
+          { "name": "Bug Fixing & Maintenance", "included": true },
+          { "name": "Basic Web Development", "included": true },
+          { "name": "Custom App Development", "included": true },
+          { "name": "Cloud Integration", "included": true }
+        ]
+      }
+    ]
+  },
+  "Footer": {
+    "subscribe_now": "SUBSCRIBE NOW",
+    "subscribe_to_newsletter": "Subscribe to Newsletter",
+    "quick_link": "Quick Links",
+    "official_info": "Official Info",
+    "recent_post": "Recent Posts",
+    "address": "3 Shoukri Abdel Haleem St. - Takseem El Laselki - Mansoura",
+    "recentPost": "Recent Posts",
+    "copyright": "© 2024 Smartech Software. All Rights Reserved.",
+
+    "quick_links": [
+      { "title": "About Company", "href": "#" },
+      { "title": "Meet Our Team", "href": "#" },
+      { "title": "Our Services", "href": "#" },
+      { "title": "News & Media", "href": "#" },
+      { "title": "Contact Us", "href": "#" },
+      { "title": "Support", "href": "#" }
+    ],
+
+    "recentPosts": [
+      {
+        "id": "1",
+        "date": "Feb 12, 2025",
+        "title": "How Smartech Solutions Help Businesses Achieve Digital Transformation"
+      },
+      {
+        "id": "2",
+        "date": "Jan 8, 2025",
+        "title": "Best Practices for Web Development Using React & Node.js"
+      }
+    ]
+  },
+  "form": {
+    "placeholders": {
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "website": "Website",
+      "help": "How can we help",
+      "comment": "Comment"
+    },
+    "submit": "Submit Now",
+    "leaveComment": "Leave A Comment",
+    "Rating": "Rating"
+  },
+  "leftSide": {
+    "title": "Welcome to Smart Tech",
+    "subtitle": "Manage users, track analytics, and stay in control — all from one powerful dashboard.",
+    "features": "Secure access • Real-time insights • Full control",
+    "copyright": "© 2025 Smart Tech. Abdelrahman."
+  },
+
+  "registerForm": {
+    "title": "Register",
+    "subtitle": "Create your account to get started",
+    "name": "Full Name",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "registerBtn": "Register",
+    "registering": "Registering...",
+    "alreadyHaveAccount": "Already have an account?",
+    "loginHere": "Login here",
+    "errors": {
+      "nameRequired": "Name is required",
+      "nameMin": "Name must be at least 2 characters long",
+      "emailInvalid": "Enter a valid email address",
+      "emailRequired": "Email is required",
+      "passwordRequired": "Password is required",
+      "passwordMin": "Password must be at least 8 characters long",
+      "passwordUpper": "Password must contain at least one uppercase letter",
+      "confirmRequired": "Confirm password is required",
+      "confirmMatch": "Passwords must match"
+    }
+  },
+  "loginForm": {
+    "title": "Admin Login",
+    "subtitle": "Enter your credentials to access the admin panel",
+    "email": "Email",
+    "password": "Password",
+    "login": "Login",
+    "loggingIn": "Logging in...",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "validation": {
+      "emailRequired": "Email is required",
+      "validEmail": "Enter a valid email address",
+      "passwordRequired": "Password is required",
+      "passwordMin": "Password must be at least 6 characters long"
+    }
+  }
+}
