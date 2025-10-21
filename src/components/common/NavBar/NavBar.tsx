@@ -71,7 +71,7 @@ const NavBar = () => {
                   {item.dropdownItems.map((dropdownItem) => (
                     <DropdownMenuItem key={dropdownItem.text}>
                       <Link
-                        href={`${locale}${dropdownItem.href}`}
+                        href={`/${locale}${dropdownItem.href}`}
                         className={`w-full py-1 px-2 rounded-sm hover:text-white ${
                           isActive(dropdownItem.href)
                             ? "bg-primary text-white"
@@ -87,7 +87,7 @@ const NavBar = () => {
             ) : (
               <li key={item.text}>
                 <Link
-                  href={`${locale}${item.href}`}
+                  href={`/${locale}${item.href}`}
                   className={`font-bold ${
                     isActive(item.href)
                       ? "bg-primary py-1 px-2 rounded-sm text-white"
