@@ -4,7 +4,6 @@ import { Label } from "@/components/ui/label";
 import {
   Select,
   SelectContent,
-  SelectItem,
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
@@ -111,11 +110,11 @@ export const FormField: React.FC<FormFieldProps> = ({
             <SelectValue placeholder={placeholder} />
           </SelectTrigger>
           <SelectContent>
-            {options.map((option) => (
+            {/* {options.map((option) => (
               <SelectItem key={option._id} value={option.name}>
                 {option.name}
               </SelectItem>
-            ))}
+            ))} */}
           </SelectContent>
         </Select>
       );

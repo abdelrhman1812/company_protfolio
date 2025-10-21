@@ -13,6 +13,7 @@ import { useEffect, useState } from "react";
 import Logo from "../Logo/Logo";
 import MobileSidebar from "./MobileSidebar";
 import { SelectLanguage } from "./SelectLanguage";
+import { usePathname } from "next/navigation"; // <-- import pathname hook
 
 const navItems = [
   { text: "home", href: "/" },
@@ -34,24 +35,23 @@ const navItems = [
     ],
   },
 ];
+
 const NavBar = () => {
   const [isFixed, setIsFixed] = useState(false);
+  const pathname = usePathname();
+  const t = useTranslations();
 
   useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 0) {
-        setIsFixed(true);
-      } else {
-        setIsFixed(false);
-      }
-    };
-
+    const handleScroll = () => setIsFixed(window.scrollY > 0);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const t = useTranslations();
-
+  const isActive = (href: string) => {
+    const pathParts = pathname.split("/").filter(Boolean);
+    const hrefParts = href.split("/").filter(Boolean);
+    return pathParts.slice(-hrefParts.length).join("/") === hrefParts.join("/");
+  };
   return (
     <div className="relative container">
       <nav
@@ -71,8 +71,12 @@ const NavBar = () => {
                   {item.dropdownItems.map((dropdownItem) => (
                     <DropdownMenuItem key={dropdownItem.text}>
                       <Link
-                        className="hover:bg-primary w-full py-1 px-2 rounded-sm hover:text-white"
                         href={dropdownItem.href}
+                        className={`w-full py-1 px-2 rounded-sm hover:text-white ${
+                          isActive(dropdownItem.href)
+                            ? "bg-primary text-white"
+                            : "hover:bg-primary text-secondary"
+                        }`}
                       >
                         {t(`Nav.${dropdownItem.text}`)}
                       </Link>
@@ -82,7 +86,14 @@ const NavBar = () => {
               </DropdownMenu>
             ) : (
               <li key={item.text}>
-                <Link href={item.href} className="font-bold text-secondary">
+                <Link
+                  href={item.href}
+                  className={`font-bold ${
+                    isActive(item.href)
+                      ? "bg-primary py-1 px-2 rounded-sm text-white"
+                      : "text-secondary"
+                  }`}
+                >
                   {t(`Nav.${item.text}`)}
                 </Link>
               </li>
