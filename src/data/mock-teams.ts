@@ -20,7 +20,7 @@ export const teams = (t: (key: string) => string): TeamProfile[] => [
     personalInfo: {
       objective: t("teamItems.0.personalInfo.objective"),
       details: {
-        phone: "01024856345",
+        phone: "01008034761",
         email: "abdelrhmanali1812@gmail.com",
         experiences: t("teamItems.0.personalInfo.details.experiences"),
         address: t("teamItems.0.personalInfo.details.address"),
@@ -63,7 +63,7 @@ export const teams = (t: (key: string) => string): TeamProfile[] => [
     personalInfo: {
       objective: t("teamItems.1.personalInfo.objective"),
       details: {
-        phone: "01024856345",
+        phone: "01008034761",
         email: "ali@gmail.com",
         experiences: t("teamItems.1.personalInfo.details.experiences"),
         address: t("teamItems.1.personalInfo.details.address"),
@@ -106,7 +106,7 @@ export const teams = (t: (key: string) => string): TeamProfile[] => [
     personalInfo: {
       objective: t("teamItems.2.personalInfo.objective"),
       details: {
-        phone: "01024856345",
+        phone: "01008034761",
         email: "ahmed@gmail.com",
         experiences: t("teamItems.2.personalInfo.details.experiences"),
         address: t("teamItems.2.personalInfo.details.address"),

@@ -17,7 +17,7 @@ const OfficialInfo = ({ t }: { t: typeT }) => {
             <p className="text-white font-semibold">
               {t("ContactUsPage.email")} :
             </p>
-            <p className="text-white">support@kyanlabs.coms</p>
+            <p className="text-white">abdelrhman1812@gmail.com</p>
           </div>
         </div>
         <div className="flex items-center gap-4 bg-[#1d1e33] p-3 rounded-lg">
@@ -28,7 +28,7 @@ const OfficialInfo = ({ t }: { t: typeT }) => {
             <p className="text-white font-semibold">
               {t("ContactUsPage.phone")} :
             </p>
-            <p className="text-white">01024856345</p>
+            <p className="text-white">01008034761</p>
           </div>
         </div>
       </div>
