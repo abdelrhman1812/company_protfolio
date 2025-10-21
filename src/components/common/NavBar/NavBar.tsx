@@ -7,7 +7,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { ChevronDown } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import Logo from "../Logo/Logo";
@@ -40,7 +40,7 @@ const NavBar = () => {
   const [isFixed, setIsFixed] = useState(false);
   const pathname = usePathname();
   const t = useTranslations();
-
+  const locale = useLocale();
   useEffect(() => {
     const handleScroll = () => setIsFixed(window.scrollY > 0);
     window.addEventListener("scroll", handleScroll);
@@ -71,7 +71,7 @@ const NavBar = () => {
                   {item.dropdownItems.map((dropdownItem) => (
                     <DropdownMenuItem key={dropdownItem.text}>
                       <Link
-                        href={dropdownItem.href}
+                        href={`${locale}${dropdownItem.href}`}
                         className={`w-full py-1 px-2 rounded-sm hover:text-white ${
                           isActive(dropdownItem.href)
                             ? "bg-primary text-white"
@@ -87,7 +87,7 @@ const NavBar = () => {
             ) : (
               <li key={item.text}>
                 <Link
-                  href={item.href}
+                  href={`${locale}${item.href}`}
                   className={`font-bold ${
                     isActive(item.href)
                       ? "bg-primary py-1 px-2 rounded-sm text-white"
