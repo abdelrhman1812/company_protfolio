@@ -2,8 +2,10 @@ import { servicesItem } from "@/lib/types";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { useLocale } from "next-intl";
 
 const SingleItemService = ({ item }: { item: servicesItem }) => {
+  const locale = useLocale();
   return (
     <div className="service-item shadow rounded-xl p-7 relative overflow-hidden hover:shadow-2xl hover:scale-[1.02] transition-transform duration-300">
       <div className="mb-[30px]">
@@ -16,7 +18,7 @@ const SingleItemService = ({ item }: { item: servicesItem }) => {
         <p className="text-lightGray leading-7">{item.description}</p>
 
         <div className="mt-5 border border-secondary rounded-full flex items-center justify-center w-[40px] h-[40px] hover:bg-primary hover:scale-105 hover:border-0 group transition-transform duration-300">
-          <Link href={"/services/1"}>
+          <Link href={`/${locale}/services/1`}>
             <ArrowUpRight
               className="text-secondary group-hover:text-white transition-transform duration-300"
               size={18}

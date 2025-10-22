@@ -2,8 +2,10 @@ import { ProjectsType } from "@/lib/types";
 import Image from "next/image";
 import Link from "next/link";
 import { FaGlobe, FaProjectDiagram } from "react-icons/fa";
+import { useLocale } from "next-intl";
 
 const SingleProject = ({ project }: { project: ProjectsType }) => {
+  const locale = useLocale();
   return (
     <div className="p-2">
       <div className="p-8 shadow-md rounded-lg hover:shadow-lg transition duration-300">
@@ -22,7 +24,7 @@ const SingleProject = ({ project }: { project: ProjectsType }) => {
         {/* Project Type */}
         <Link
           className="flex items-center mt-3 text-lightGray gap-x-2"
-          href={`/projects/${project.id}`}
+          href={`/${locale}/projects/${project.id}`}
         >
           <FaProjectDiagram className="text-primary" />
           <p className="leading-7">{project.type}</p>

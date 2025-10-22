@@ -58,7 +58,7 @@ const SingleBlog = ({ post, t }: BlogCardProps) => {
         <p className="text-lightGray mb-4 line-clamp-2">{post.excerpt}</p>
 
         <Link
-          href={`/blogs/${post.id}`}
+          href={`/${locale}/blogs/${post.id}`}
           title={post.title}
           className="flex gap-x-3 items-center text-gray-900 font-semibold hover:text-red-500 transition-colors"
         >
